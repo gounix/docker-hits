@@ -13,7 +13,7 @@ The following enviroment variables are supported:
 | PORT | The port that is used for publishing the metrics |
 | NAMESPACE | The docker namespace to query, all images will be reported|
 | IMAGE | The docker image to query|
-only ine of NAMESPACE or IMAGE can be specified.
+only one of NAMESPACE or IMAGE can be specified.
 
 # Helm chart
 [github](https://github.com/gounix/docker-hits/tree/main/helm-charts)
