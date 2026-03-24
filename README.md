@@ -1,5 +1,5 @@
 # Overview
-The docker-hits container queries the pull statistics at docker.io. If a namespace is specified all imagis in that namespace will be reported. If an image is specified only that image will be reported.
+The docker-hits container queries the pull statistics at docker.io. If a namespace is specified all images in that namespace will be reported. If an image is specified only that image will be reported.
 The values are made available for scraping by prometheus. The scrape url is http://<service_address>:<PORT>/metrics. If you use the prometheus-operator deployment in combination with our helm chart the scrape config is not needed. The helm chart contains a serviceMonitor definition.
 
 # Screenshot
