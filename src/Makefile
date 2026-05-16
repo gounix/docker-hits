@@ -1,6 +1,6 @@
 IMAGE=docker-hits
-IMAGE_VERSION=1.2
-GOVERSION=1.25.8
+IMAGE_VERSION=1.2.1
+GOVERSION=1.26.3
 
 target:
 	buildah build --build-arg GOVERSION=${GOVERSION} -t ${IMAGE}:${IMAGE_VERSION} .
