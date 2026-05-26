@@ -15,6 +15,10 @@ The following enviroment variables are supported:
 | IMAGE | The docker image to query|
 only one of NAMESPACE or IMAGE can be specified.
 
+# Available metrics
+
+There are two available metrics `docker_pull_count` and `docker_star_count`. Both have the labels `docker_namespace` and `repo` that correspond to the environment variables `NAMESPACE` and `IMAGE`.
+
 # Helm chart
 [github](https://github.com/gounix/docker-hits/tree/main/helm-charts)
 
